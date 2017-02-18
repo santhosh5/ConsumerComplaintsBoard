@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "982254806528",
+    "project_id": "firebase-consumercomplaintsboa"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:982254806528:android:47642f3a4ad83d1d",
+        "android_client_info": {
+          "package_name": "com.palletechnologies.consumercomplaintsboard"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "982254806528-eg6ovg3psbfm7cr3q41t7ilr9aa8uqcq.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.palletechnologies.consumercomplaintsboard",
+            "certificate_hash": "C242BEB0735941B692907E9C9823EB981FAF23DC"
+          }
+        },
+        {
+          "client_id": "982254806528-g2q95ma2c42pf559pqss221910nrojg6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBDaOmTRAKoz2E7sj6id8MH8Pi0LL9_Umw"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 1
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

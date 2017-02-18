@@ -1,0 +1,59 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.palletechnologies.consumercomplaintsboard.ShareFrag">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="LIKE US!"
+        android:textSize="20sp"
+        android:textColor="@color/compnayname"
+        android:layout_marginLeft="70dp"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:id="@+id/facebook"
+            android:background="@drawable/facebook"
+            android:layout_marginLeft="70dp"
+            android:layout_marginTop="20dp"/>
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:id="@+id/twitter"
+            android:background="@drawable/twitter"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="20dp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:id="@+id/googleplus"
+            android:background="@drawable/googleplus"
+            android:layout_marginLeft="70dp"
+            android:layout_marginTop="20dp"/>
+
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:id="@+id/website"
+            android:background="@drawable/website"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="20dp"/>
+
+    </LinearLayout>
+</LinearLayout>

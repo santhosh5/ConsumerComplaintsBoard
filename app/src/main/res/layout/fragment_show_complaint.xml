@@ -1,0 +1,118 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_margin="10dp"
+    tools:context="com.palletechnologies.consumercomplaintsboard.ShowComplaintFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/show_company_name"
+                android:text="Company Name"
+                android:textSize="32sp"
+                android:textColor="@color/colorPrimaryDark"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/show_complaint_subject"
+                android:text="Complaint Subject"
+                android:textSize="25sp"
+                android:textColor="@color/text_color"/>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="CATEGORY         : "
+                    android:textSize="20sp"
+                    android:textColor="@color/text_color"/>
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:id="@+id/show_category"
+                    android:text="Category"
+                    android:textSize="20sp"
+                    android:textColor="@color/colorcategory"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="COUNTRY           : "
+                    android:textSize="20sp"
+                    android:textColor="@color/text_color"/>
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:id="@+id/show_country"
+                    android:text="Country"
+                    android:textSize="20sp"
+                    android:textColor="@color/colorcategory"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="CITY                     : "
+                    android:textSize="20sp"
+                    android:textColor="@color/text_color"/>
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:id="@+id/show_city"
+                    android:text="City"
+                    android:textSize="20sp"
+                    android:textColor="@color/colorcategory"/>
+
+            </LinearLayout>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:layout_weight="5"
+                android:id="@+id/show_description"
+                android:text="Description"
+                android:textSize="20sp"
+                android:textColor="@color/text_color"/>
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/show_comments"
+                android:text="Comments"
+                android:textSize="20sp"
+                android:textColor="@color/text_color"
+                android:layout_margin="5dp"
+                android:layout_gravity="center"
+                android:background="@drawable/button_shape"/>
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
